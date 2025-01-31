@@ -1,4 +1,3 @@
-
 # Probabilistic Prediction Model for NEET Rank Prediction
 
 ## Overview
@@ -11,12 +10,12 @@ A modern **UI dashboard** allows users to visualize trends, track their predicti
 
 ## Key Features
 
--   **Probabilistic Rank Estimation** – Implements Bayesian inference to refine prediction accuracy based on empirical data.
--   **Dynamic Weighted Scoring Model** – Utilizes exponentially decaying weight functions to prioritize recent performance while considering historical trends.
--   **Statistical Consistency Calibration** – Incorporates mean deviation, variance analysis, and real-time corrections.
--   **Multi-Factor Predictive Modeling** – Employs difficulty adjustments, scoring gradients, and error minimization heuristics.
--   **College Admission Forecasting** – Uses hierarchical selection algorithms and multivariate eligibility comparisons.
--   **Interactive UI Dashboard** – Provides real-time performance tracking and predictive insights through a clean and intuitive interface.
+- **Probabilistic Rank Estimation** – Implements Bayesian inference to refine prediction accuracy based on empirical data.
+- **Dynamic Weighted Scoring Model** – Utilizes exponentially decaying weight functions to prioritize recent performance while considering historical trends.
+- **Statistical Consistency Calibration** – Incorporates mean deviation, variance analysis, and real-time corrections.
+- **Multi-Factor Predictive Modeling** – Employs difficulty adjustments, scoring gradients, and error minimization heuristics.
+- **College Admission Forecasting** – Uses hierarchical selection algorithms and multivariate eligibility comparisons.
+- **Interactive UI Dashboard** – Provides real-time performance tracking and predictive insights through a clean and intuitive interface.
 
 ## Approach & Algorithm
 
@@ -24,47 +23,47 @@ A modern **UI dashboard** allows users to visualize trends, track their predicti
 
 A multi-layered algorithm dynamically assigns scoring weights using:
 
--   **Quadratic Weighting Functions** – Ensures an optimal balance between past and recent performances.
--   **Bayesian Inference Mechanisms** – Reduces fluctuations and enhances probabilistic accuracy.
--   **Error-Minimized Rank Scaling** – Implements real-time corrections based on standard deviation scoring.
+- **Quadratic Weighting Functions** – Ensures an optimal balance between past and recent performances.
+- **Bayesian Inference Mechanisms** – Reduces fluctuations and enhances probabilistic accuracy.
+- **Error-Minimized Rank Scaling** – Implements real-time corrections based on standard deviation scoring.
 
 ### 2. Statistical Consistency Calibration
 
 A robust statistical model fine-tunes predictions by analyzing:
 
--   **Mean and Standard Deviation of Historical Scores** – Captures trend variations and adapts scoring scales accordingly.
--   **Sigmoid Transformation for Normalization** – Converts raw performance deviations into stable, interpretable outputs.
--   **Performance Tier Adaptive Scaling** – Dynamically adjusts to different skill tiers for precision forecasting.
+- **Mean and Standard Deviation of Historical Scores** – Captures trend variations and adapts scoring scales accordingly.
+- **Sigmoid Transformation for Normalization** – Converts raw performance deviations into stable, interpretable outputs.
+- **Performance Tier Adaptive Scaling** – Dynamically adjusts to different skill tiers for precision forecasting.
 
 ### 3. Multi-Factor Rank Estimation
 
 The final rank prediction integrates:
 
--   **Absolute Score Metrics** – Utilizes high-resolution normalization mapping functions.
--   **Test Difficulty Adjustment** – Calibrates rankings based on contextual difficulty weights.
--   **Performance Gradient Analysis** – Tracks and adapts to long-term improvement patterns.
+- **Absolute Score Metrics** – Utilizes high-resolution normalization mapping functions.
+- **Test Difficulty Adjustment** – Calibrates rankings based on contextual difficulty weights.
+- **Performance Gradient Analysis** – Tracks and adapts to long-term improvement patterns.
 
 ### 4. College Admission Prediction
 
 A predictive modeling framework for estimating college admissions, utilizing:
 
--   **Hierarchical Sorting Algorithms** – Prioritizes institution eligibility based on dynamic scoring factors.
--   **Multivariate Rank Analysis** – Benchmarks rank eligibility across multiple academic tiers.
--   **Optimized Selection Heuristics** – Employs probability-driven heuristics for maximized admission success rates.
+- **Hierarchical Sorting Algorithms** – Prioritizes institution eligibility based on dynamic scoring factors.
+- **Multivariate Rank Analysis** – Benchmarks rank eligibility across multiple academic tiers.
+- **Optimized Selection Heuristics** – Employs probability-driven heuristics for maximized admission success rates.
 
 ## API Endpoints
 
 ### Rank Prediction
 
--   `GET /api/rank` – Submits performance data and returns a probabilistic rank and college estimation.
+- `GET /api/rank` – Submits performance data and returns a probabilistic rank and college estimation.
 
 ### Performance Analysis
 
--   `GET /api/performance` – Runs performance diagnostics and provides analytical insights.
+- `GET /api/performance` – Runs performance diagnostics and provides analytical insights.
 
 ### Performance Trends
 
--   `GET /api/trends` – Provides visualization trends to be mapped onto graphs or charts.
+- `GET /api/trends` – Provides visualization trends to be mapped onto graphs or charts.
 
 ## Setup and Installation
 
@@ -72,8 +71,8 @@ A predictive modeling framework for estimating college admissions, utilizing:
 
 Ensure the following dependencies are installed:
 
--   **Node.js** (v20+)
--   **Bun** (v1.0+)
+- **Node.js** (v20+)
+- **Bun** (v1.0+)
 
 ### Installation Steps
 
@@ -93,9 +92,9 @@ Ensure the following dependencies are installed:
 3.  **Setup Environment Variables** Create a `.env` file and configure the required database and API settings:
 
     ```env
-    LAST_QUIZ_DATA=
-    LAST_QUIZ_OVERVIEW=
-    PREVIOUS_QUIZ_ATTEMPTS=
+    NEXT_PUBLIC_LAST_QUIZ_DATA=
+    NEXT_PUBLIC_LAST_QUIZ_OVERVIEW=
+    NEXT_PUBLIC_PREVIOUS_QUIZ_ATTEMPTS=
     ```
 
 4.  **Start the Application**
@@ -105,8 +104,6 @@ Ensure the following dependencies are installed:
     ```
 
     Access the UI at **[http://localhost:3000](http://localhost:3000/)**.
-
-
 
 ## UI Screenshots
 

@@ -4,9 +4,11 @@ import { RankPredictor } from "../../../lib/predictionModel";
 import CollegePredictor from "../../../lib/collegePredictor";
 export async function GET() {
   try {
-    const res1 = await fetch(process.env.PREVIOUS_QUIZ_ATTEMPTS || "");
+    const res1 = await fetch(
+      process.env.NEXT_PUBLIC_PREVIOUS_QUIZ_ATTEMPTS || ""
+    );
     const historicalTests = await res1.json();
-    const res2 = await fetch(process.env.LAST_QUIZ_OVERVIEW || "");
+    const res2 = await fetch(process.env.NEXT_PUBLIC_LAST_QUIZ_OVERVIEW || "");
     const currentTest = await res2.json();
 
     const rankPrediction = new RankPredictor({
