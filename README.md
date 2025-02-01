@@ -1,4 +1,4 @@
-# Probabilistic Prediction Model for NEET Rank Prediction
+# Probabilistic Prediction Model for NEET Rank Determination
 
 ## Overview
 
